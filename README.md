@@ -1,6 +1,6 @@
 # How to use DockingVS ?
 
-### 1 Bulid the environment
+###  Requirements
 
 1. conda create -n envir_name python=3.8              
 2. conda install rdkit rdkit             
@@ -10,4 +10,4 @@
 6. pip install PyaiVS   
 
 
-### 2 Parameter setting
+###  Parameter setting
