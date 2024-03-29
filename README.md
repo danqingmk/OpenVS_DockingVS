@@ -2,12 +2,16 @@
 
 ###  Requirements
 
-1. conda create -n envir_name python=3.8              
-2. conda install rdkit rdkit             
-3. conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cudatoolkit=10.2 -c pytorch  # need to confirm your cuda>=10.2  
-4. conda install -c dglteam dgl==0.4.3post2   
-5. conda install **xgboost,hyperopt,mxnet,requests,mdtraj**    
-6. pip install PyaiVS   
+This software has been tested on Linux. We think it should work with other linux-based setups quite easily.
+ 
+Prerequisites include:
+* OpenBabel
+* UCSF Chimera
+* Mgltools
+* AutoDock Vina
 
+## General Usage
 
-###  Parameter setting
+Step 1: Prepare input files, including parameter configuration file（config.conf）, ligand file (ligand.mol2), and protein file (protein.pdbqt).
+Step 2: Run the code to perform docking operations.
+>>> python autodock.py
