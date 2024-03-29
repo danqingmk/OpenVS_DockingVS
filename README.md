@@ -12,5 +12,6 @@ Prerequisites include:
 
 ## General Usage
 
-Step 1: Prepare input files, including parameter configuration file（config.conf）, ligand file (ligand.mol2), and protein file (protein.pdbqt).<bar>
-Step 2: Run the code to perform docking operations.
+Step 1: Prepare input files, including parameter configuration file（config.conf）, ligand file (ligand.mol2), and protein file (protein.pdbqt).<br>
+Step 2: Run the code to perform docking operations.<br>
+        python autodock.py
