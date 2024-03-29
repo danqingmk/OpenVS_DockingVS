@@ -5,10 +5,10 @@
 This software has been tested on Linux. We think it should work with other linux-based setups quite easily.
  
 Prerequisites include:
-* OpenBabel
-* UCSF Chimera
-* Mgltools
-* AutoDock Vina
+* OpenBabel (https://open-babel.readthedocs.io/en/latest/index.html)
+* UCSF Chimera (https://www.cgl.ucsf.edu/chimera/)
+* Mgltools (https://ccsb.scripps.edu/mgltools/)
+* AutoDock Vina (https://vina.scripps.edu/)
 
 ## General Usage
 
